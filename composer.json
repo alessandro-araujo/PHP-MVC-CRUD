@@ -1,0 +1,25 @@
+{
+    "name": "api/database",
+    "description": "API RESTFUL",
+    "authors": [
+      {
+        "name": "Alessandro Araujo",
+        "email": "alessandro.v.b.araujo@gmail.com"
+      }
+    ],
+    "require": {
+      "ext-pdo": "*",
+      "ext-ctype": "*",
+      "phpunit/phpunit": "^11.0.1",
+      "ext-mbstring": "*"
+    },    "config": {
+      "platform": {
+        "php": "8.2.12"
+      }
+    },
+    "autoload": {
+      "psr-4": {
+        "application\\": "application/"
+      }
+    }
+  }
